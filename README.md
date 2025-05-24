@@ -24,14 +24,14 @@
 
 ## Данные (https://drive.google.com/drive/folders/1RbAnVXkQ0jKflNS8Hxg_YHu-v23q_vW8?usp=share_link)
 **Датасет**: Oxford-IIIT Pet доступен через TensorFlow Datasets.
-**Предобработанные файлы (размер ~1.5 ГБ, размещены на Google Drive)**:
+- **Предобработанные файлы (размер ~1.5 ГБ, размещены на Google Drive)**:
 - train_images_corrected.npy
 - train_masks_corrected.npy
 - val_images_corrected.npy
 - val_masks_corrected.npy
 - test_images_corrected.npy
 - test_masks_corrected.npy
-**Модель**:
+- **Модель**:
 - best_unet_oxford_pet_v1.keras (~1.37 ГБ).
 - Примечание: Загрузите файлы и укажите их пути в скрипте или используйте preprocess для обработки датасета с нуля.
 
@@ -40,5 +40,5 @@
 **Метрики:**
 - Лучшая валидационная точность: 90.41%.
  - MeanIoU: 0.7405 (близко к SOTA для U-Net).
-**Визуализации:** Примеры сегментации сохранены в results/oxford_pet_visualization_v1_{i}.png.
-**История обучения:** См. results/unet_oxford_pet_history_v10.csv.
+- **Визуализации:** Примеры сегментации сохранены в results/oxford_pet_visualization_v1_{i}.png.
+- **История обучения:** См. results/unet_oxford_pet_history_v10.csv.
