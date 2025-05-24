@@ -37,8 +37,8 @@
 
 
 ## Результаты
-Метрики:
-Лучшая валидационная точность: 90.41%.
-MeanIoU: 0.7405 (близко к SOTA для U-Net).
-Визуализации: Примеры сегментации сохранены в results/oxford_pet_visualization_v1_{i}.png.
-История обучения: См. results/unet_oxford_pet_history_v10.csv.
+**Метрики:**
+- Лучшая валидационная точность: 90.41%.
+ MeanIoU: 0.7405 (близко к SOTA для U-Net).
+**Визуализации:** Примеры сегментации сохранены в results/oxford_pet_visualization_v1_{i}.png.
+**История обучения:** См. results/unet_oxford_pet_history_v10.csv.
